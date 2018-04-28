@@ -71,21 +71,34 @@ body .color4-secondary {
 body {
   background-color: #FFFBFF;
   font-family: Noto Sans, sans-serif;
-  display: flex;
-  flex-direction: column;
 }
 body h1 {
   text-align: center;
   font-weight: 100;
   font-size: 40px;
 }
+body #buttons {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+body #buttons div {
+  display: flex;
+  flex-direction: row;
+}
 body .button {
-  width: 10%;
+  width: 15%;
   height: 5%;
   margin: 20px auto;
-  background-color: white;
+  background-color: transparent;
   color: black;
+  font-size: 1.3vh;
+  font-weight: bold;
   border: solid 2px black;
+}
+body .button:hover {
+  cursor: pointer;
 }
 body .button-1 {
   background-color: white;
@@ -93,7 +106,7 @@ body .button-1 {
   color: #5DE2A4;
 }
 body .button-1:hover {
-  background-color: #D9F0DE;
+  background-color: #5DE2A4;
   color: white;
   border-width: 1px;
 }
@@ -103,7 +116,7 @@ body .button-2 {
   color: #77CBEF;
 }
 body .button-2:hover {
-  background-color: #E3ECF0;
+  background-color: #77CBEF;
   color: white;
   border-width: 1px;
 }
@@ -113,7 +126,7 @@ body .button-3 {
   color: #3E505B;
 }
 body .button-3:hover {
-  background-color: #C0BFBE;
+  background-color: #3E505B;
   color: white;
   border-width: 1px;
 }
@@ -123,9 +136,19 @@ body .button-4 {
   color: #E1656F;
 }
 body .button-4:hover {
-  background-color: #FFE7E1;
+  background-color: #E1656F;
   color: white;
   border-width: 1px;
+}
+body .button-disabled {
+  cursor: not-allowed !important;
+}
+body .button-disabled:hover {
+  background-color: lightgrey;
+  border-width: 0px;
+}
+body .button-discrete {
+  border: none;
 }
 
 /*# sourceMappingURL=buttons.css.map */

@@ -3,22 +3,37 @@
 body{
     background-color:#FFFBFF;
     font-family: Noto Sans, sans-serif;
-    display:flex;
-    flex-direction:column;
 
     h1{
         text-align:center;
         font-weight: 100;
         font-size: 40px;
     }
+
+    #buttons{
+        display:flex;
+        flex-direction:column;
+        width:80%;
+        margin:auto;
+
+        div{
+            display:flex;
+            flex-direction:row;
+        }
+    }
     
     .button{
-        width:10%;
+        width:15%;
         height:5%;
         margin:20px auto;
-        background-color: white;
+        background-color: transparent;
         color:black;
+        font-size:1.3vh;
+        font-weight: bold;
         border: solid 2px black;
+        &:hover{
+            cursor: pointer;
+        }
     }
     
     .button-1{
@@ -27,7 +42,7 @@ body{
         color:$color-1-secondary;
     
         &:hover{
-            background-color: $color-1;
+            background-color: $color-1-secondary;
             color:white;
             border-width:1px;
         }
@@ -39,7 +54,7 @@ body{
         color:$color-2-secondary;
     
         &:hover{
-            background-color: $color-2;
+            background-color: $color-2-secondary;
             color:white;
             border-width:1px;
         }
@@ -51,7 +66,7 @@ body{
         color:$color-3-secondary;
     
         &:hover{
-            background-color: $color-3;
+            background-color: $color-3-secondary;
             color:white;
             border-width:1px;
         }
@@ -63,9 +78,21 @@ body{
         color:$color-4-secondary;
     
         &:hover{
-            background-color: $color-4;
+            background-color: $color-4-secondary;
             color:white;
             border-width:1px;
         }
+    }
+
+    .button-disabled{
+        cursor: not-allowed !important;
+        &:hover{
+            background-color:lightgrey;
+            border-width:0px;
+        }
+    }
+
+    .button-discrete{
+        border:none;
     }
 }
