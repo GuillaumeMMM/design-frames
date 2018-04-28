@@ -1,0 +1,84 @@
+@import "./colors-template.scss";
+
+body{
+  background-color:#FFFBFF;
+  font-family: Noto Sans, sans-serif;
+  display:flex;
+  flex-direction:column;
+
+  h1{
+    text-align:center;
+    font-weight: 100;
+    font-size: 40px;
+  }
+  
+  #colors{
+    width:60%;
+    height:20%;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #colors-secondary{
+    width:60%;
+    height:30%;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box{
+    width:15vh;
+    height:15vh;
+    margin:10px;
+    text-align:center;
+
+    .box-text{
+      padding:5px;
+      color:white;
+      display:inline-block;
+      margin-top:40%;
+    }
+    
+    .box-text-secondary{
+      padding:5px;
+      color:white;
+      display:inline-block;
+      margin-top:30%;
+    }
+  }
+  .color1{
+    background-color:$color-1;
+  }
+  
+  .color2{
+    background-color:$color-2;
+  }
+  
+  .color3{
+    background-color:$color-3;
+  }
+  
+  .color4{
+    background-color:$color-4;
+  }
+  
+  .color1-secondary{
+    background-color:$color-1-secondary;
+  }
+  
+  .color2-secondary{
+    background-color:$color-2-secondary;
+  }
+  
+  .color3-secondary{
+    background-color:$color-3-secondary;
+  }
+  
+  .color4-secondary{
+    background-color:$color-4-secondary;
+  }
+}
