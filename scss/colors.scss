@@ -1,4 +1,4 @@
-@import "./colors-template.scss";
+@import "../template.scss";
 
 body{
   background-color:#FFFBFF;
@@ -11,6 +11,30 @@ body{
     font-weight: 100;
     font-size: 40px;
   }
+
+  #navbar{
+    font-size:16px;
+    ul{
+        text-align: center;
+        li{
+            list-style-type: none;
+            display:inline-block;
+            padding-right:10px;
+            a{
+                text-decoration: none;
+                color:black;
+                font-weight:lighter;
+            }
+            a:hover{
+                font-weight:bolder;
+            }
+        }
+    }
+    hr{
+        width:10%;
+        margin-left:45%;
+    }
+}
   
   #colors{
     width:60%;
@@ -49,36 +73,5 @@ body{
       display:inline-block;
       margin-top:30%;
     }
-  }
-  .color1{
-    background-color:$color-1;
-  }
-  
-  .color2{
-    background-color:$color-2;
-  }
-  
-  .color3{
-    background-color:$color-3;
-  }
-  
-  .color4{
-    background-color:$color-4;
-  }
-  
-  .color1-secondary{
-    background-color:$color-1-secondary;
-  }
-  
-  .color2-secondary{
-    background-color:$color-2-secondary;
-  }
-  
-  .color3-secondary{
-    background-color:$color-3-secondary;
-  }
-  
-  .color4-secondary{
-    background-color:$color-4-secondary;
   }
 }

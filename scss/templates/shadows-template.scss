@@ -1,0 +1,81 @@
+.shadow{
+    width:15vh;
+    height:15vh;
+    color:black;
+    margin:20px auto;
+    background-color:  lightgoldenrodyellow;
+    
+    span{
+        text-align:center;
+        padding:5px;
+        margin:auto;
+    }
+}
+
+.shadow-neutral{
+    box-shadow: 3px 3px lightgray;
+}
+
+.shadow-x2{
+    box-shadow: 6px 6px lightgray;
+}
+
+.shadow-x3{
+    box-shadow: 9px 9px lightgray;
+}
+
+.shadow-x4{
+    box-shadow: 12px 12px lightgray;
+}
+
+.shadow-1{
+    box-shadow: 3px 3px $color-1-secondary;
+    &.shadow-x2{
+        box-shadow: 6px 6px $color-1-secondary;
+    }
+    &.shadow-x3{
+        box-shadow: 9px 9px $color-1-secondary;
+    }
+    &.shadow-x4{
+        box-shadow: 12px 12px $color-4-secondary;
+    }
+}
+
+.shadow-2{
+    box-shadow: 3px 3px $color-2-secondary;
+    &.shadow-x2{
+        box-shadow: 6px 6px $color-2-secondary;
+    }
+    &.shadow-x3{
+        box-shadow: 9px 9px $color-2-secondary;
+    }
+    &.shadow-x4{
+        box-shadow: 12px 12px $color-4-secondary;
+    }
+}
+
+.shadow-3{
+    box-shadow: 3px 3px $color-3-secondary;
+    &.shadow-x2{
+        box-shadow: 6px 9px $color-3-secondary;
+    }
+    &.shadow-x3{
+        box-shadow: 9px 9px $color-3-secondary;
+    }
+    &.shadow-x4{
+        box-shadow: 12px 12px $color-4-secondary;
+    }
+}
+
+.shadow-4{
+    box-shadow: 3px 3px $color-4-secondary;
+    &.shadow-x2{
+        box-shadow: 6px 6px $color-4-secondary;
+    }
+    &.shadow-x3{
+        box-shadow: 9px 9px $color-4-secondary;
+    }
+    &.shadow-x4{
+        box-shadow: 12px 12px $color-4-secondary;
+    }
+}

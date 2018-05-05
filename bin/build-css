@@ -1,0 +1,3 @@
+node-sass --include-path scss scss/buttons.scss   public/css/buttons.css
+node-sass --include-path scss scss/colors.scss   public/css/colors.css
+node-sass --include-path scss scss/shadows.scss   public/css/shadows.css

@@ -1,0 +1,42 @@
+$color-1: #D9F0DE;
+$color-2: #E3ECF0;
+$color-3: #C0BFBE;
+$color-4: #FFE7E1;
+
+$color-1-secondary: #5DE2A4;
+$color-2-secondary: #77CBEF;
+$color-3-secondary: #3E505B;
+$color-4-secondary: #E1656F;
+
+  
+  .color1{
+    background-color:$color-1;
+  }
+  
+  .color2{
+    background-color:$color-2;
+  }
+  
+  .color3{
+    background-color:$color-3;
+  }
+  
+  .color4{
+    background-color:$color-4;
+  }
+  
+  .color1-secondary{
+    background-color:$color-1-secondary;
+  }
+  
+  .color2-secondary{
+    background-color:$color-2-secondary;
+  }
+  
+  .color3-secondary{
+    background-color:$color-3-secondary;
+  }
+  
+  .color4-secondary{
+    background-color:$color-4-secondary;
+  }

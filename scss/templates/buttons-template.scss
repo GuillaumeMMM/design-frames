@@ -1,0 +1,73 @@
+.button{
+    width:15%;
+    height:5%;
+    margin:20px auto;
+    background-color: transparent;
+    color:black;
+    font-size:1.3vh;
+    font-weight: bold;
+    border: solid 2px black;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.button-1{
+    background-color: white;
+    border-color: $color-1-secondary;
+    color:$color-1-secondary;
+
+    &:hover{
+        background-color: $color-1-secondary;
+        color:white;
+        border-width:1px;
+    }
+}
+
+.button-2{
+    background-color: white;
+    border-color: $color-2-secondary;
+    color:$color-2-secondary;
+
+    &:hover{
+        background-color: $color-2-secondary;
+        color:white;
+        border-width:1px;
+    }
+}
+
+.button-3{
+    background-color: white;
+    border-color: $color-3-secondary;
+    color:$color-3-secondary;
+
+    &:hover{
+        background-color: $color-3-secondary;
+        color:white;
+        border-width:1px;
+    }
+}
+
+.button-4{
+    background-color: white;
+    border-color: $color-4-secondary;
+    color:$color-4-secondary;
+
+    &:hover{
+        background-color: $color-4-secondary;
+        color:white;
+        border-width:1px;
+    }
+}
+
+.button-disabled{
+    cursor: not-allowed !important;
+    &:hover{
+        background-color:lightgrey;
+        border-width:0px;
+    }
+}
+
+.button-discrete{
+    border:none;
+}
